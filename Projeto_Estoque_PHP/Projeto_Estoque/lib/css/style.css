@@ -1,0 +1,273 @@
+/*#=id, centralizou o container(.=class)*/
+#tamanho_container{
+	width: 500px;
+	margin-top: 40px;
+}
+
+#tamanho_container_tab{
+	width: 500px;
+	margin-top: -0px;
+}
+
+#tamanho_menu{
+	margin-top: 20px;
+}
+
+#tamanho_login{
+	width: 350px;
+	margin-top: 100px;
+	border-radius: 15px;
+	border: 2px solid #f3f3f3;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(163,150,163,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(163,150,163,1);
+	box-shadow: 10px 10px 5px 0px rgba(163,150,163,1);
+
+}
+
+#espaço{
+	padding: 10px;
+}
+
+#botao_cadastrar{
+	background: #32CD32;/*fundo*/
+	color: #ffffff;/*letra*/
+	font-weight: bold;/*fonte da letra*/
+	text-align: right;
+	margin-top: -25px;
+	margin-left: -5px;
+}
+
+#botao_adicionar{
+	background: #32CD32;/*fundo*/
+	color: #ffffff;/*letra*/
+	font-weight: bold;
+}
+
+#botao_inativo{
+	background: rgb(63, 63, 63);/*fundo*/
+	color: white;/*letra*/
+	font-weight: bold;
+}
+
+#botao_aprovar{
+	background: #32CD32;/*fundo*/
+	color: #ffffff;/*letra*/
+	font-weight: bold;/*fonte da letra*/
+	text-align: right;
+	
+}
+
+#botao_editar{
+	background:#FFA500; 
+	color: #fff;
+	font-weight: bold;
+}
+
+#botao_deletar{
+	background: #FF0000;
+	color: #fff;
+	font-weight: bold;
+}
+
+#botao_listar{
+	background: #000080;
+	color: #fff;
+	font-weight: bold;
+	margin-left: -5px;
+}
+
+#botao_voltar{
+	background: #E6E6FA;
+	color: #000;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+#botao_voltar_login:hover{
+	background-color: white;
+	color:deepskyblue
+}
+
+
+#botao_direita{
+	text-align: right;
+	margin-top: 30px;
+}
+
+#botao_esquerda{
+	text-align: left;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
+#botao_adm{
+	background: #32CD32;/*fundo*/
+	color: #ffffff;/*letra*/
+	font-weight: bold;/*fonte da letra*/
+	border-radius: 10px;
+}
+
+#botao_fun{
+	background:#FFA500; 
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#botao_conf{
+	background:#000; 
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+h3{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+
+#espaçamento{
+	margin-top: 20px;
+}
+
+#topo_listar {
+	margin-top: 50px;
+}
+
+#topo_listar_h{
+	margin-top: -5px;
+}
+
+#topo_listar_itens{
+	margin-top: 5px;
+}
+
+#tabela{
+	margin-top: -20px;
+}
+
+#imagem_login{
+	width: 115px;
+	height: 115px;
+}
+
+body{
+	background-color: palegreen;
+}
+
+/*IMAGENS*/
+#img_produtos{
+	height: 150%;
+	width: 150%;
+	position: relative;
+	padding: 50px;
+	border-radius: 20px;
+	margin-top: -35px;
+}
+
+
+/* CARD COM ZOOM */
+
+.hoverzoom {
+    position: relative;
+    width: 325px;
+    height: 200px;
+	overflow: hidden;
+	margin-left: -35px;
+	margin-top: 100px;
+	margin-bottom: -25px;
+	border-radius: 20px;
+	
+}
+.hoverzoom img {
+    max-width: 100%;
+    border-radius: 2px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover img {
+	-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+	transform: scale(1.5);
+	
+}
+.hoverzoom .retina{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);    
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+
+    -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); 
+}
+.hoverzoom:hover .retina {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+    
+}
+
+.a1{
+	color: #FFF;
+	font-size: 18px;
+}
+
+.a2{
+	margin-top: 25px;
+    color: #fff;
+}
+
+#botao_voltar_login{
+	background: deepskyblue;
+	color: white;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: -100px;
+}
+
+#icones_menu{
+	widows: 700%;
+	margin-bottom: 50px;
+}
+
+#esquerda{
+	margin-bottom: -50px;
+	margin-top: -50px;	
+}
+
+#label{
+	
+}
+
+#mostra_usuario{
+	margin-top: -70px;
+}
+
+label{
+	font-weight: bold;
+	
+}
+
+#mostra_usuario_input{
+	width: 200px;
+	margin-top: 0px;
+}
+
