@@ -11,8 +11,8 @@ $id = $_GET['id'];//pegando o id e mostrando na tela.
 <head>
 	<meta charset="utf-8">
 	<title>Editar Categoria</title>
+	<link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../../lib/css/style.css">
-	<link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>	<!--container = espaçamento -->	<!--id = identificação. #=css -->

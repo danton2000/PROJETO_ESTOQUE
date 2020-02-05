@@ -65,7 +65,7 @@
 
     			<tr>
       				<td><?php echo $nome_usuario ?></td><!--th = células(linha+colunas preenchidas) -->
-              		<td><?php echo $nivel_usuario ?></td>
+              		<td id="nivel"><?php echo $nivel_usuario ?></td>
               		<td>
 						<?php
 							if(($nivel == 1) || ($nivel == 2)){

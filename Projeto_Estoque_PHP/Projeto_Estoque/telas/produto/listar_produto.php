@@ -68,7 +68,7 @@
       				<td><?php echo $nro_produto ?></td><!--th = células(linha+colunas preenchidas) -->
       				<td><?php echo $nome_produto ?></td>
       				<td><?php echo $categoria ?></td>
-      				<td><?php echo $quantidade ?></td>
+      				<td id="quantidade"><?php echo $quantidade ?></td>
       				<td><?php echo $fornecedor ?></td>
       				<td>
 						<?php

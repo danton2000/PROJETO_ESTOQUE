@@ -156,7 +156,7 @@ h4{
 }
 
 body{
-	background-color: palegreen;
+	background-color: lightskyblue;
 }
 
 /*IMAGENS*/
@@ -238,22 +238,17 @@ body{
 	background: deepskyblue;
 	color: white;
 	font-weight: bold;
-	margin-top: 70px;
-	margin-bottom: 20px;
-	margin-left: -100px;
+	margin-left: -5px;
+	margin-top: 5px;
 }
 
 #icones_menu{
-	widows: 700%;
-	margin-bottom: 50px;
+	text-align: center;
+	width: 50%;
 }
 
 #esquerda{
 	margin-bottom: -50px;
-	margin-top: -50px;	
-}
-
-#label{
 	
 }
 
@@ -263,11 +258,39 @@ body{
 
 label{
 	font-weight: bold;
+	margin-top: 40px;
+}
+
+#label{
 	
 }
 
 #mostra_usuario_input{
 	width: 200px;
 	margin-top: 0px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+/*LISTAR PRODUTOS*/
+table{
+	/* text-align: center; */
+	font-size: 20px;
+	/* font-weight: bold; */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#quantidade{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+/*LISTAR USUARIOS ATIVOS e INATIVOS*/
+
+#nivel{
+	text-align: center;
+}
+
+
 

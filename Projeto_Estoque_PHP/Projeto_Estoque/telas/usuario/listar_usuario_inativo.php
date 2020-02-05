@@ -27,7 +27,7 @@
   			</thead>
 
             <?php
-            include '../../lib/bd/conexao.php';
+            		include '../../lib/bd/conexao.php';
     				$sql = "SELECT * FROM tb_usuario WHERE status = 'Inativo'";
     				$busca = mysqli_query($conexao,$sql);
 					   //laço de repetição com array,armazenado linhas no array
@@ -43,7 +43,7 @@
     			<tr>
       				<td><?php echo $nome_usuario ?></td><!--th = células(linha+colunas preenchidas) -->
               		<td><?php echo $email_usuario ?></td>
-              		<td><?php echo $nivel_usuario ?></td>
+              		<td id="nivel"><?php echo $nivel_usuario ?></td>
 
       				<td>
 					<a class="btn btn-sm" id="botao_adm" href="aprovar_usuario.php?id_usuario=<?php echo $id_usuario ?>&nivel_usuario=1" role="button"><i class="fas fa-user-tie"></i></i>&nbsp;Administrador</a><!--&nbsp = espaço do icone;  i class = icone edit;pego o produto pelo id -->

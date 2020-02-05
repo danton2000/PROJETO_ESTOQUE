@@ -14,6 +14,7 @@
     session_start();
 
     $login_usuario = $_SESSION['login_usuario'];
+    $nome_usuario = $_SESSION['nome_usuario'];
 
     if(!isset($_SESSION['login_usuario'])) {
       header('Location: ../index.php');
@@ -26,18 +27,16 @@
     $nivel = $array['nivel_usuario'];
   ?>
 
-	
     <div class="container" id="esquerda">
-      <a href="../index.php" role="button" id="botao_voltar_login" class="btn btn-sm"><i class="fas fa-door-open"></i>Sair do sistema</a>
+      <a href="../index.php" role="button" id="botao_voltar_login" class="btn btn-sm"><i class="fas fa-door-open"></i>Sair</a>
       <center id="mostra_usuario">
       <label id="label">USUÁRIO</label>
-      <input type="text" class="form-control" id="mostra_usuario_input" value="<?php echo $login_usuario ?>" readonly>
+      <input type="text" class="php form-control" id="mostra_usuario_input" value="<?php echo $nome_usuario ?>" readonly>
       </center>    
     </div>
 
-  <center>
   <div class="container" id="icones_menu">
-    <div class="row d-flex justify-content-center">
+    <div class="row">
       <div class="col-md-5">
         <div class="hoverzoom">
           <img  id="img_produtos" class="img-thumbnail" src="../lib/img/produtos.png">
@@ -95,7 +94,7 @@
       </div>
     </div>
   </div>   
-</center>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha385-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
